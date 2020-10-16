@@ -1,0 +1,24 @@
+{
+  "ToDoModels": [
+    {
+      "id": 1,
+      "title": "New todo",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Do something",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Other thing",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Okay",
+      "completed": false
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import { retry, catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class TodoService {
-  apiURL = 'https://todolist.zoltanhalasz.net/api';
+  apiURL = 'http://localhost:3000';
   
   constructor(private http: HttpClient) { }
 
