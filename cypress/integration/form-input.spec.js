@@ -7,7 +7,7 @@ describe('Form input', () => {
     cy.focused().should('have.class', 'new-todo');
   });
 
-  it.only('Accepts input', () => {
+  it('Accepts input', () => {
     const value = 'New todo';
 
     cy.get('.new-todo')
