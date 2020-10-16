@@ -4,7 +4,7 @@
           <form id="form" (ngSubmit)="onSubmit()" #todoForm="ngForm">    
                   <div class="flex-wrapper">
                     <div style="flex: 6">                      
-                      <input type="text" class="form-control new-todo" id="title" required [(ngModel)]="mytodo.title" name="title"
+                      <input type="text" autofocus class="form-control new-todo" id="title" required [(ngModel)]="mytodo.title" name="title"
                       #title="ngModel">
                     </div>             
                     <div style="flex: 1">
