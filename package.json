@@ -1,17 +1,18 @@
 {
-  "name": "todolist",
-  "version": "0.0.0",
+  "name": "dio-todo-list-cypress",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
     "server": "json-server --watch server/db.json",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "cypress:all": "cypress run"
   },
-  "private": true,
+  "author": "“Celso <“celso.henrique@hotmail.com.br”>",
+  "license": "MIT",
   "dependencies": {
     "@angular/animations": "~9.0.3",
     "@angular/common": "~9.0.3",
